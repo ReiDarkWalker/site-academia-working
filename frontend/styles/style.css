@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap');
+
+body {
+    background-color: rgb(58, 58, 58);
+    color: aliceblue;
+    font-family: Arial;
+    margin: 0px;
+}
+
+.menu {
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#logo-menu {
+    font-weight: bold;
+    position: absolute;
+    left: 1px;
+}
+
+#logo-menu span {
+    color: gold;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.logo span{
+    color: gold;
+}
+
+.item-menu {
+    padding: 20px 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.grid {
+    background-image: url(https://img.freepik.com/fotos-gratis/confiante-jovem-atleta-caucasiana-musculosa-praticando-na-academia-com-os-pesos-modelo-masculino-fazendo-exercicios-de-forca-treinando-a-parte-superior-do-corpo-bem-estar-estilo-de-vida-saudavel-conceito-de-musculacao_155003-36810.jpg?w=740&t=st=1689372256~exp=1689372856~hmac=a39ef91d309ffe27e68b5f6bb0f3ee672e90211f2979f37a694c8738432846e2);
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    height: 800px;
+}
+
+.grid1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.titulo-principal {
+    background-image: linear-gradient(90deg, rgb(25, 119, 227), rgb(1, 178, 1));
+    background-size: 150% 150%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.enfeite-geral {
+    position: relative;
+    left: 50px;
+}
+
+.enfeite-geometrico {
+    width: 700px;
+    height: 450px;
+    background-color: rgb(43, 43, 43);
+}
+
+.triangulo {
+    width: 0px;
+    height: 0px;
+    border-top: 250px solid rgb(43, 43, 43);
+    border-left: 350px solid transparent;
+    border-right: 350px solid transparent;
+}
+
+.conteudo-enfeite {
+    padding: 80px;
+}
+
+.conteudo-enfeite p {
+    margin-bottom: 50px;
+}
+
+.falha-vermelho {
+    color: red;
+}
+
+.botao-contrate {
+    padding: 10px;
+    color: black;
+    border-radius: 30px;
+    background-image: linear-gradient(90deg, red,orange, yellow);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section1 {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(27, 27, 27);
+    position: relative;
+    top: -323px;
+    z-index: -1;
+}
+
+.conteudo-section1 {
+    padding: 30px;
+}
+
+.conteudo-section1 p {
+    width: 500px;
+}
