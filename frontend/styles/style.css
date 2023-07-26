@@ -37,6 +37,11 @@ body {
     padding: 20px 10px;
     text-decoration: none;
     color: aliceblue;
+    transition: 0.3s ease-in-out;
+}
+
+.item-menu:hover {
+    color: rgb(156, 156, 156);
 }
 
 .grid {
@@ -45,7 +50,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    height: 800px;
 }
 
 .grid1 {
@@ -102,13 +106,16 @@ body {
     font-weight: bold;
 }
 
+.content-site {
+    z-index: -1;
+    position: relative;
+    top: -207px;
+}
+
 .section1 {
     width: 100%;
     height: 350px;
     background-color: rgb(27, 27, 27);
-    position: relative;
-    top: -323px;
-    z-index: -1;
 }
 
 .conteudo-section1 {
@@ -117,4 +124,24 @@ body {
 
 .conteudo-section1 p {
     width: 500px;
+}
+
+.conteudo-section2 {
+    padding: 30px;
+}
+
+.ninguem-vermelho {
+    color: red;
+}
+
+.rodape {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: -1100px;
+}
+
+.rodape-text {
+    background-color: black;
+    padding: 30px;
 }

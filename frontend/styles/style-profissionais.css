@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(58, 58, 58);
+    color: aliceblue;
+    font-family: Arial;
+    margin: 0px;
+}
+
+.menu {
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#logo-menu {
+    font-weight: bold;
+    position: absolute;
+    left: 1px;
+}
+
+#logo-menu span {
+    color: gold;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.logo span{
+    color: gold;
+}
+
+.item-menu {
+    padding: 20px 10px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.3s ease-in-out;
+}
+
+.item-menu:hover {
+    color: rgb(156, 156, 156);
+}
+
+.header {
+    margin-left: 5%;
+}
+
+.grid-section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imagem-perfil {
+    max-width: 250px;
+    transition: 0.3s ease-in-out;
+}
+
+.image-title {
+    background-color: rgb(58, 58, 58);
+    padding-bottom: 2px;
+    transition: 0.3s ease-in-out;
+}
+
+.texto-content {
+    position: relative;
+    top: -145px;
+    right: -1px;
+    transition: 0.3s ease-in-out;
+    text-align: left;
+    z-index: -1;
+}
+
+.image-title:hover .imagem-perfil{
+    max-width: 270px;
+}
+
+.image-title:hover + .texto-content {
+    transform: translateY(130px);
+}
