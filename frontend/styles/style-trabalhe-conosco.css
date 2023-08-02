@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(58, 58, 58);
+    background-color: #3a3a3a;
     color: aliceblue;
     font-family: Arial;
     margin: 0px;
 }
 
 .menu {
-    background-color: rgb(37, 37, 37);
+    background-color: #252525;
     width: 100%;
     display: flex;
     gap: 10px;
@@ -43,30 +43,34 @@ body {
 }
 
 .header {
-    margin-left: 5%;
-}
-
-.grid-section1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.item-grid-section1 {
     text-align: center;
-    background-color: #252525;
-    height: 250px;
+}
+
+.destaque-logo {
+    color: gold;
+}
+
+.funcao {
+    background-color: rgb(38, 38, 38);
+    margin: 10px;
+    width: 60%;
     transition: 0.3s ease-in-out;
 }
 
-.item-grid-section1:hover {
-    background-color: rgb(26, 26, 26);
+.funcao:hover {
+    width: 65%;
+    background-color: rgb(29, 29, 29);
     border-radius: 15px;
-    transform: translateY(-10px);
 }
 
-.section2 {
-    margin: 5%;
+.content-funcao {
+    padding: 5px;
+}
+
+.botao {
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(90deg, orange, red);
 }

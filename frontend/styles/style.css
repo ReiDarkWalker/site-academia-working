@@ -73,7 +73,7 @@ body {
 .enfeite-geometrico {
     width: 700px;
     height: 450px;
-    background-color: rgb(43, 43, 43);
+    background-color: #2b2b2b;
 }
 
 .triangulo {
@@ -115,7 +115,7 @@ body {
 .section1 {
     width: 100%;
     height: 350px;
-    background-color: rgb(27, 27, 27);
+    background-color: #1b1b1b;
 }
 
 .conteudo-section1 {
